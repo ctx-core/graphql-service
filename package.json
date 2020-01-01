@@ -32,12 +32,12 @@
 	"dependencies": {
 		"@ctx-core/graphql": "^4.1.33",
 		"@ctx-core/object": "^6.3.11",
-		"apollo-server-express": "^2.9.14",
+		"apollo-server-express": "^2.9.15",
 		"graphql": "^14.5.8",
 		"graphql-upload": "^9.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^12.12.21",
+		"@types/node": "^13.1.2",
 		"typescript": "^3.7.4"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
