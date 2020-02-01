@@ -34,10 +34,10 @@
 		"@ctx-core/object": "^8.0.1",
 		"apollo-server-express": "^2.9.16",
 		"graphql": "^14.6.0",
-		"graphql-upload": "^9.0.0"
+		"graphql-upload": "^10.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^13.5.0",
+		"@types/node": "^13.7.0",
 		"typescript": "^3.7.5"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
