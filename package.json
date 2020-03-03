@@ -32,7 +32,7 @@
 	"dependencies": {
 		"@ctx-core/graphql": "^4.1.42",
 		"@ctx-core/object": "^8.0.3",
-		"apollo-server-express": "^2.10.1",
+		"apollo-server-express": "^2.11.0",
 		"graphql": "^14.6.0",
 		"graphql-upload": "^10.0.0"
 	},
