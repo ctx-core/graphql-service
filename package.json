@@ -37,7 +37,7 @@
 		"graphql-upload": "^10.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^13.7.7",
+		"@types/node": "^13.9.0",
 		"typescript": "^3.8.3"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
