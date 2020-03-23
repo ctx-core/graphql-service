@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "2.1.78",
+	"version": "2.1.79",
 	"description": "ctx-core graphql-service",
 	"main": "polka.js",
 	"module": "polka.js",
