@@ -40,5 +40,8 @@
 		"@types/node": "^13.11.0",
 		"typescript": "^3.8.3"
 	},
+	"noUpdate": [
+		"graphql"
+	],
 	"gitHead": "ba61f2061ce1d037942b2ebe188a4ca1a4ffa4db"
 }
