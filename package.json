@@ -33,11 +33,11 @@
 		"@ctx-core/graphql": "^4.1.43",
 		"@ctx-core/object": "^8.0.4",
 		"apollo-server-express": "^2.11.0",
-		"graphql": "^14.6.0",
+		"graphql": "^15.0.0",
 		"graphql-upload": "^10.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^13.9.8",
+		"@types/node": "^13.11.0",
 		"typescript": "^3.8.3"
 	},
 	"gitHead": "ba61f2061ce1d037942b2ebe188a4ca1a4ffa4db"
