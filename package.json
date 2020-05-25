@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "2.1.102",
+	"version": "2.1.103",
 	"description": "ctx-core graphql-service",
 	"main": "polka.js",
 	"module": "polka.js",
@@ -30,8 +30,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/graphql": "^4.1.57",
-		"@ctx-core/object": "^8.0.13",
+		"@ctx-core/graphql": "^4.1.58",
+		"@ctx-core/object": "^8.0.14",
 		"apollo-server-express": "^2.13.1",
 		"graphql": "~14.6.0",
 		"graphql-upload": "^11.0.0"
