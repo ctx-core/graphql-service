@@ -2,9 +2,9 @@
 	"name": "@ctx-core/graphql-service",
 	"version": "2.1.113",
 	"description": "ctx-core graphql-service",
-	"main": "polka.js",
-	"module": "polka.js",
-	"types": "polka.ts",
+	"main": "index.js",
+	"module": "index.js",
+	"types": "index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
