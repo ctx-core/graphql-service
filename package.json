@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "2.1.119",
+	"version": "2.1.120",
 	"description": "ctx-core graphql-service",
 	"main": "./index.js",
 	"module": "./index.js",
