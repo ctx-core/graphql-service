@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "2.1.131",
+	"version": "2.1.132",
 	"description": "ctx-core graphql-service",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,8 +30,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/graphql": "^4.1.75",
-		"@ctx-core/object": "^9.0.8",
+		"@ctx-core/graphql": "^4.1.76",
+		"@ctx-core/object": "^9.0.9",
 		"apollo-server-express": "^2.16.1",
 		"graphql": "~14.6.0",
 		"graphql-upload": "^11.0.0"
