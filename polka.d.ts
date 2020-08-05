@@ -26,11 +26,3 @@ export declare type params__ApolloServer = {
     typeDefs: TypeDefs;
     resolvers: Resolvers | Resolvers[];
 };
-/**
- *
- * @param {string} path
- * @param {{}} app
- * @param {params__ApolloServer} params__ApolloServer
- * @returns {*}
- */
-export declare function use__ApolloServer__polka(path: string, app: any, params__ApolloServer: params__ApolloServer): any;

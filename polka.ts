@@ -1,6 +1,6 @@
-import { assign } from '@ctx-core/object'
+// import { assign } from '@ctx-core/object'
 import { graphqlUploadExpress } from 'graphql-upload'
-import { ApolloServer } from 'apollo-server-express'
+// import { ApolloServer } from 'apollo-server-express'
 import { GraphQLSchema, TypeDefs, Resolvers, } from '@ctx-core/graphql'
 const graphql_upload__express = graphqlUploadExpress()
 /**
@@ -42,22 +42,23 @@ export type params__ApolloServer = {
 	typeDefs: TypeDefs
 	resolvers: Resolvers|Resolvers[]
 }
-/**
- *
- * @param {string} path
- * @param {{}} app
- * @param {params__ApolloServer} params__ApolloServer
- * @returns {*}
- */
-export function use__ApolloServer__polka(
-	path: string,
-	app: any,
-	params__ApolloServer: params__ApolloServer,
-) {
-	app.use(path, graphql_upload__polka)
-	const server = new ApolloServer(
-		assign({ uploads: false }, params__ApolloServer)
-	)
-	server.applyMiddleware({ app, path })
-	return app
-}
+// /**
+//  *
+//  * @param {string} path
+//  * @param {{}} app
+//  * @param {params__ApolloServer} params__ApolloServer
+//  * @returns {*}
+//  */
+// export function use__ApolloServer__polka(
+// 	path: string,
+// 	app: any,
+// 	params__ApolloServer: params__ApolloServer,
+// ) {
+// 	app.use(path, graphql_upload__polka)
+// 	const server = new ApolloServer(
+// 		assign({ uploads: false }, params__ApolloServer)
+// 	)
+// 	server.applyMiddleware({ app, path })
+// 	return app
+// }
+// TODO: fix & reenable
