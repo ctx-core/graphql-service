@@ -1,4 +1,4 @@
-import { GraphQLSchema, TypeDefs, Resolvers } from '@ctx-core/graphql';
+import type { GraphQLSchema, TypeDefs, Resolvers } from '@ctx-core/graphql';
 /**
  * @typedef opts__express_graphql
  * @property {GraphQLSchema} schema

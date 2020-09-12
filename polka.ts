@@ -1,7 +1,7 @@
 // import { assign } from '@ctx-core/object'
 import { graphqlUploadExpress } from 'graphql-upload'
 // import { ApolloServer } from 'apollo-server-express'
-import { GraphQLSchema, TypeDefs, Resolvers, } from '@ctx-core/graphql'
+import type { GraphQLSchema, TypeDefs, Resolvers, } from '@ctx-core/graphql'
 const graphql_upload__express = graphqlUploadExpress()
 /**
  * @typedef opts__express_graphql
@@ -46,7 +46,7 @@ export type params__ApolloServer = {
 //  *
 //  * @param {string} path
 //  * @param {{}} app
-//  * @param {params__ApolloServer} params__ApolloServer
+//  * mw @param {params__ApolloServer} params__ApolloServer
 //  * @returns {*}
 //  */
 // export function use__ApolloServer__polka(
