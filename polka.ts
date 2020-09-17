@@ -15,7 +15,7 @@ const graphql_upload__express = graphqlUploadExpress()
 export type opts__express_graphql = {
 	schema: GraphQLSchema
 	graphiql?: boolean
-	rootValue?: any
+	rootValue?: unknown
 	pretty: boolean
 	formatError?: Function
 	validationRules?: []
@@ -51,7 +51,7 @@ export type params__ApolloServer = {
 //  */
 // export function use__ApolloServer__polka(
 // 	path: string,
-// 	app: any,
+// 	app: unknown,
 // 	params__ApolloServer: params__ApolloServer,
 // ) {
 // 	app.use(path, graphql_upload__polka)

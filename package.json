@@ -1,47 +1,47 @@
 {
-	"name": "@ctx-core/graphql-service",
-	"version": "2.1.150",
-	"description": "ctx-core graphql-service",
-	"keywords": [
-		"ctx-core",
-		"google"
-	],
-	"homepage": "https://github.com/ctx-core/graphql-service#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/graphql-service/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/graphql-service/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"@ctx-core/graphql": "workspace:*",
-		"@ctx-core/object": "workspace:*",
-		"apollo-server-express": "^2.17.0",
-		"graphql": "~14.6.0",
-		"graphql-upload": "^11.0.0"
-	},
-	"devDependencies": {
-		"@types/node": "^14.10.1",
-		"typescript": "^4.0.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "cddbcdf7460a603d3d93c850e26fe7af7acd949a",
-	"noUpdate": [
-		"graphql"
-	]
+  "name": "@ctx-core/graphql-service",
+  "version": "2.1.151",
+  "description": "ctx-core graphql-service",
+  "keywords": [
+    "ctx-core",
+    "google"
+  ],
+  "homepage": "https://github.com/ctx-core/graphql-service#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/graphql-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/graphql-service/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "@ctx-core/graphql": "workspace:*",
+    "@ctx-core/object": "workspace:*",
+    "apollo-server-express": "^2.17.0",
+    "graphql": "~14.6.0",
+    "graphql-upload": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.3",
+    "typescript": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "cddbcdf7460a603d3d93c850e26fe7af7acd949a",
+  "noUpdate": [
+    "graphql"
+  ]
 }

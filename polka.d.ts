@@ -11,7 +11,7 @@ import type { GraphQLSchema, TypeDefs, Resolvers } from '@ctx-core/graphql';
 export declare type opts__express_graphql = {
     schema: GraphQLSchema;
     graphiql?: boolean;
-    rootValue?: any;
+    rootValue?: unknown;
     pretty: boolean;
     formatError?: Function;
     validationRules?: [];
