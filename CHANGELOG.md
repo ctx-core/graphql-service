@@ -1,5 +1,17 @@
 # @ctx-core/graphql-service
 
+## 3.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@5.0.0
+  - @ctx-core/object@12.0.0
+
 ## 2.1.152
 
 ### Patch Changes
