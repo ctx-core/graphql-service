@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 3.0.1
+
+### Patch Changes
+
+- @ctx-core/graphql@5.0.1
+
 ## 3.0.0
 
 ### Major Changes
