@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 3.0.17
+
+### Patch Changes
+
+- - apollo-server-express@^2.18.1
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.10
+  - @ctx-core/graphql@5.0.16
+
 ## 3.0.16
 
 ### Patch Changes
