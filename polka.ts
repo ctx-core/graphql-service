@@ -29,7 +29,7 @@ export async function graphql_upload__polka(req, res, next) {
 		)
 	})
 	await new Promise(async (resolve, reject) => {
-		graphql_upload__express(req, res, e => e ? reject(e) : resolve())
+		graphql_upload__express(req, res, e => e ? reject(e) : resolve(null))
 	})
 	next()
 }

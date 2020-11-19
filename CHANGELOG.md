@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 3.0.36
+
+### Patch Changes
+
+- fix: typescript build
+
 ## 3.0.35
 
 ### Patch Changes
