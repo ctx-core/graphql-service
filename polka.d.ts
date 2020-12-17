@@ -8,21 +8,21 @@ import type { GraphQLSchema, TypeDefs, Resolvers } from '@ctx-core/graphql';
  * @property {function} [formatError]
  * @property {[]} [validationRules]
  */
-export declare type opts__express_graphql = {
+export interface opts__express_graphql {
     schema: GraphQLSchema;
     graphiql?: boolean;
     rootValue?: unknown;
     pretty: boolean;
     formatError?: Function;
     validationRules?: [];
-};
+}
 export declare function graphql_upload__polka(req: any, res: any, next: any): Promise<void>;
 /**
  * @typedef params__ApolloServer
  * @property {TypeDefs} typeDefs
  * @property {Resolvers|Resolvers[]} resolvers
  */
-export declare type params__ApolloServer = {
+export interface params__ApolloServer {
     typeDefs: TypeDefs;
     resolvers: Resolvers | Resolvers[];
-};
+}

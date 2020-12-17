@@ -12,24 +12,24 @@ const graphql_upload__express = graphqlUploadExpress()
  * @property {function} [formatError]
  * @property {[]} [validationRules]
  */
-export type opts__express_graphql = {
-	schema: GraphQLSchema
-	graphiql?: boolean
-	rootValue?: unknown
-	pretty: boolean
-	formatError?: Function
-	validationRules?: []
+export interface opts__express_graphql {
+	schema:GraphQLSchema
+	graphiql?:boolean
+	rootValue?:unknown
+	pretty:boolean
+	formatError?:Function
+	validationRules?:[]
 }
 export async function graphql_upload__polka(req, res, next) {
 	const { headers } = req
-	req.is || (req.is = content_type__ => {
+	req.is || (req.is = content_type__=>{
 		return (
 			headers['content-type']
 			&& headers['content-type'].indexOf(content_type__) > -1
 		)
 	})
-	await new Promise(async (resolve, reject) => {
-		graphql_upload__express(req, res, e => e ? reject(e) : resolve(null))
+	await new Promise(async (resolve, reject)=>{
+		graphql_upload__express(req, res, e=>e ? reject(e) : resolve(null))
 	})
 	next()
 }
@@ -38,9 +38,9 @@ export async function graphql_upload__polka(req, res, next) {
  * @property {TypeDefs} typeDefs
  * @property {Resolvers|Resolvers[]} resolvers
  */
-export type params__ApolloServer = {
-	typeDefs: TypeDefs
-	resolvers: Resolvers|Resolvers[]
+export interface params__ApolloServer {
+	typeDefs:TypeDefs
+	resolvers:Resolvers|Resolvers[]
 }
 // /**
 //  *
