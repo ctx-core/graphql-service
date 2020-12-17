@@ -1,5 +1,16 @@
 # @ctx-core/graphql-service
 
+## 3.1.8
+
+### Patch Changes
+
+- interface instead of type: opts**express_graphql,params**ApolloServer,opts\_\_express_graphql
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.4
+  - @ctx-core/graphql@5.1.6
+
 ## 3.1.7
 
 ### Patch Changes
