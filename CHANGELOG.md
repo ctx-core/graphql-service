@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 4.0.10
+
+### Patch Changes
+
+- @ctx-core/graphql@6.0.8
+
 ## 4.0.9
 
 ### Patch Changes
