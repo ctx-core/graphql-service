@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 4.0.13
+
+### Patch Changes
+
+- typescript: ^4.1.3 -> ^4.1.4
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.0.11
+  - @ctx-core/object@17.0.5
+
 ## 4.0.12
 
 ### Patch Changes
