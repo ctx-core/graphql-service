@@ -28,7 +28,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/graphql": "workspace:^6.0.15",
-		"@ctx-core/object": "workspace:^17.0.9",
+		"@ctx-core/object": "workspace:^17.0.10",
 		"apollo-server-express": "^2.21.0",
 		"graphql": "^15.5.0",
 		"graphql-upload": "^11.0.0"
