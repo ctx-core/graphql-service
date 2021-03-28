@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 4.0.40
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.0.26
+  - @ctx-core/object@17.4.1
+
 ## 4.0.39
 
 ### Patch Changes
