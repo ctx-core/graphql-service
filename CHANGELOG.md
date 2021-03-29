@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 4.0.41
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.0.27
+  - @ctx-core/object@17.4.2
+
 ## 4.0.40
 
 ### Patch Changes
