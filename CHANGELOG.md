@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 4.0.42
+
+### Patch Changes
+
+- version bump
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.0.28
+  - @ctx-core/object@17.4.3
+
 ## 4.0.41
 
 ### Patch Changes
