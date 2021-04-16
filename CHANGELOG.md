@@ -1,5 +1,12 @@
 # @ctx-core/graphql-service
 
+## 4.0.48
+
+### Patch Changes
+
+- @types/node: ^14.14.37 -> ^14.14.41
+- apollo-server-express: ^2.22.2 -> ^2.23.0
+
 ## 4.0.47
 
 ### Patch Changes
