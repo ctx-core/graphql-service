@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "4.0.54",
+	"version": "4.0.55",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -34,7 +34,7 @@
 		"graphql-upload": "^11.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^15.0.0",
+		"@types/node": "^15.0.1",
 		"typescript": "^4.2.4"
 	},
 	"publishConfig": {
