@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/graphql": "workspace:^6.0.45",
-		"@ctx-core/object": "workspace:^17.5.18",
+		"@ctx-core/graphql": "workspace:^6.0.46",
+		"@ctx-core/object": "workspace:^17.5.19",
 		"apollo-server-express": "^2.24.0",
 		"graphql": "^15.5.0",
 		"graphql-upload": "^11.0.0"
