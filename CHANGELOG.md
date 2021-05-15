@@ -1,5 +1,17 @@
 # @ctx-core/graphql-service
 
+## 4.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.1.0
+  - @ctx-core/object@17.6.0
+
 ## 4.0.64
 
 ### Patch Changes
