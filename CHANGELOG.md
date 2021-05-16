@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 4.1.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.1.1
+  - @ctx-core/object@17.6.1
+
 ## 4.1.0
 
 ### Minor Changes
