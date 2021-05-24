@@ -1,5 +1,17 @@
 # @ctx-core/graphql-service
 
+## 4.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.2.0
+  - @ctx-core/object@18.1.0
+
 ## 4.1.12
 
 ### Patch Changes
