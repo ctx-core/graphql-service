@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 4.1.12
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.1.10
+  - @ctx-core/object@18.0.6
+
 ## 4.1.11
 
 ### Patch Changes
