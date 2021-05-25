@@ -1,5 +1,17 @@
 # @ctx-core/graphql-service
 
+## 4.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@6.3.0
+  - @ctx-core/object@18.2.0
+
 ## 4.2.2
 
 ### Patch Changes
