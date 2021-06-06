@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 4.3.12
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@7.0.14
+  - @ctx-core/object@19.1.2
+
 ## 4.3.11
 
 ### Patch Changes
