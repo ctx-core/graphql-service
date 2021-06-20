@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 5.0.8
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@8.0.8
+  - @ctx-core/object@20.0.7
+
 ## 5.0.7
 
 ### Patch Changes
