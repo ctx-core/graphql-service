@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 5.0.5
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@8.0.5
+  - @ctx-core/object@20.0.4
+
 ## 5.0.4
 
 ### Patch Changes
