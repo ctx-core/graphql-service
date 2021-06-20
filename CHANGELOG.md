@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 5.0.6
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@8.0.6
+  - @ctx-core/object@20.0.5
+
 ## 5.0.5
 
 ### Patch Changes
