@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 5.0.11
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@8.0.11
+  - @ctx-core/object@20.0.8
+
 ## 5.0.10
 
 ### Patch Changes
