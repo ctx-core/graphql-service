@@ -1,7 +1,7 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
-		"target": "ES2018",
+		"target": "ES2019",
 		"composite": true,
 		"declaration": true,
 		"sourceMap": true,
@@ -25,10 +25,7 @@
 		"outDir": "src",
 		"mapRoot": "src",
 		"declarationDir": "src",
-		"lib": [
-			"dom",
-			"ES2020"
-		],
+		"lib": ["dom", "ESNext"],
 		"types": [
 			"node"
 		],
