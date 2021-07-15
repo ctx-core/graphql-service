@@ -1,7 +1,9 @@
 import type { Request, Response } from 'express'
 import { flatten } from '@ctx-core/array'
 import { express_graphql_upload } from './express_graphql_upload.js'
-export async function polka_graphql_upload(req:Request, res:Response, next:()=>void) {
+export async function polka_graphql_upload(
+	req:Request, res:Response, next:()=>void
+):Promise<void> {
 	const { headers } = req
 	req.is || (req.is = content_type=>{
 		const content_type_a = flatten([content_type]) as string[]
@@ -15,7 +17,7 @@ export async function polka_graphql_upload(req:Request, res:Response, next:()=>v
 			: null)
 	})
 	await new Promise(async (resolve, reject)=>{
-		express_graphql_upload(req, res, (e:any)=>e ? reject(e) : resolve(null))
+		express_graphql_upload(req, res, (e:any)=>e ? reject(e) : resolve(undefined))
 	})
 	next()
 }

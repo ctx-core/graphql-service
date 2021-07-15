@@ -1,5 +1,13 @@
 # @ctx-core/graphql-service
 
+## 6.0.3
+
+### Patch Changes
+
+- fix: module imports;types
+- Updated dependencies [undefined]
+  - @ctx-core/graphql@9.0.3
+
 ## 6.0.2
 
 ### Patch Changes
