@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express'
 import { flatten } from '@ctx-core/array'
-import { express_graphql_upload } from './express_graphql_upload'
+import { express_graphql_upload } from './express_graphql_upload.js'
 export async function polka_graphql_upload(req:Request, res:Response, next:()=>void) {
 	const { headers } = req
 	req.is || (req.is = content_type=>{
