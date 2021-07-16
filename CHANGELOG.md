@@ -1,5 +1,15 @@
 # @ctx-core/graphql-service
 
+## 6.0.4
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.3
+  - @ctx-core/graphql@9.0.4
+  - @ctx-core/object@21.0.3
+
 ## 6.0.3
 
 ### Patch Changes
