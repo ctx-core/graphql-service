@@ -1,5 +1,15 @@
 # @ctx-core/graphql-service
 
+## 6.0.9
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.9
+  - @ctx-core/graphql@9.0.9
+  - @ctx-core/object@21.0.8
+
 ## 6.0.8
 
 ### Patch Changes
