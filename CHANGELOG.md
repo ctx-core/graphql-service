@@ -1,5 +1,15 @@
 # @ctx-core/graphql-service
 
+## 6.0.8
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.8
+  - @ctx-core/graphql@9.0.8
+  - @ctx-core/object@21.0.7
+
 ## 6.0.7
 
 ### Patch Changes
