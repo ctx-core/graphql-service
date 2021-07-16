@@ -1,5 +1,15 @@
 # @ctx-core/graphql-service
 
+## 6.0.11
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/graphql@9.0.11
+  - @ctx-core/object@21.0.10
+
 ## 6.0.10
 
 ### Patch Changes
