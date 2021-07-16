@@ -1,5 +1,25 @@
 # @ctx-core/graphql-service
 
+## 6.0.6
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.6
+  - @ctx-core/graphql@9.0.6
+  - @ctx-core/object@21.0.5
+
+## 6.0.5
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.5
+  - @ctx-core/graphql@9.0.5
+  - @ctx-core/object@21.0.4
+
 ## 6.0.4
 
 ### Patch Changes
