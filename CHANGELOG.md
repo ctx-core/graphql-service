@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 6.0.57
+
+### Patch Changes
+
+- @types/node: ^16.9.6 -> ^16.10.1
+
 ## 6.0.56
 
 ### Patch Changes
