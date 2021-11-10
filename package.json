@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "6.0.62",
+	"version": "6.0.63",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,9 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"main": "./dist/index.cjs",
+	"main": "./dist/index.js",
 	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.ts",
 	"exports": {
 		".": {
 			"require": "./dist/index.cjs",
@@ -28,26 +28,26 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"build": "npm run clean && npm run copy-mjs && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
-		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"module.exports = (async () => import('./index.js'))()\" > index.cjs",
+		"build": "npm run compile",
+		"clean": "rm -rf dist",
+		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.22",
-		"@ctx-core/graphql": "workspace:^9.0.29",
-		"@ctx-core/object": "workspace:^21.0.21",
+		"@ctx-core/array": "workspace:^23.0.23",
+		"@ctx-core/graphql": "workspace:^9.0.30",
+		"@ctx-core/object": "workspace:^21.0.22",
 		"apollo-server-express": "preview",
-		"esm": "^3.2.25",
 		"graphql": "^16.0.1",
 		"graphql-upload": "^12.0.0"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "workspace:^20.2.2",
+		"@ctx-core/function": "workspace:^20.2.3",
+		"@swc/cli": "^0.1.51",
+		"@swc/core": "^1.2.107",
 		"@types/graphql-upload": "^8.0.7",
-		"@types/node": "^16.11.6",
+		"@types/node": "^16.11.7",
 		"typescript": "^4.4.4"
 	},
 	"publishConfig": {
