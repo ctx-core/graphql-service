@@ -1,5 +1,17 @@
 # @ctx-core/graphql-service
 
+## 6.0.68
+
+### Patch Changes
+
+- @swc/core: ^1.2.113 -> ^1.2.116
+- @types/node: ^16.11.10 -> ^16.11.11
+- graphql-upload: ^12.0.0 -> ^13.0.0
+- Updated dependencies
+  - @ctx-core/array@23.0.28
+  - @ctx-core/graphql@9.0.35
+  - @ctx-core/object@21.0.27
+
 ## 6.0.67
 
 ### Patch Changes
