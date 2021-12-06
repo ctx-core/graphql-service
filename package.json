@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "6.0.69",
+	"version": "6.0.70",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -35,17 +35,17 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.29",
-		"@ctx-core/graphql": "workspace:^9.0.36",
-		"@ctx-core/object": "workspace:^21.0.28",
+		"@ctx-core/array": "workspace:^23.0.30",
+		"@ctx-core/graphql": "workspace:^9.0.37",
+		"@ctx-core/object": "workspace:^21.0.29",
 		"apollo-server-express": "preview",
 		"graphql": "^16.0.1",
 		"graphql-upload": "^13.0.0"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "workspace:^20.2.9",
+		"@ctx-core/function": "workspace:^20.2.10",
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.117",
+		"@swc/core": "^1.2.118",
 		"@types/graphql-upload": "^8.0.7",
 		"@types/node": "^16.11.11",
 		"typescript": "next"
