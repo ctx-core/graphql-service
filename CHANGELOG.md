@@ -1,5 +1,15 @@
 # @ctx-core/graphql-service
 
+## 6.0.83
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/array@23.0.41
+  - @ctx-core/graphql@9.0.49
+  - @ctx-core/object@22.0.8
+
 ## 6.0.82
 
 ### Patch Changes
