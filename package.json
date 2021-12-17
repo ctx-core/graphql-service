@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "6.0.80",
+	"version": "6.0.81",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -35,15 +35,15 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.38",
-		"@ctx-core/graphql": "workspace:^9.0.46",
-		"@ctx-core/object": "workspace:^22.0.5",
+		"@ctx-core/array": "workspace:^23.0.39",
+		"@ctx-core/graphql": "workspace:^9.0.47",
+		"@ctx-core/object": "workspace:^22.0.6",
 		"apollo-server-express": "preview",
 		"graphql": "^16.1.0",
 		"graphql-upload": "^13.0.0"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "workspace:^20.2.17",
+		"@ctx-core/function": "workspace:^20.2.18",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"@types/graphql-upload": "^8.0.7",
