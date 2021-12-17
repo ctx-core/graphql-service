@@ -1,5 +1,15 @@
 # @ctx-core/graphql-service
 
+## 6.0.82
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/array@23.0.40
+  - @ctx-core/graphql@9.0.48
+  - @ctx-core/object@22.0.7
+
 ## 6.0.81
 
 ### Patch Changes
