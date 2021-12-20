@@ -45,9 +45,9 @@
 	"devDependencies": {
 		"@ctx-core/function": "workspace:^20.2.20",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.120",
+		"@swc/core": "^1.2.121",
 		"@types/graphql-upload": "^8.0.7",
-		"@types/node": "^17.0.0",
+		"@types/node": "^17.0.1",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
