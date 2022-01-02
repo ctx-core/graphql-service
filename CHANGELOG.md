@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 6.0.84
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/graphql@9.0.50
+
 ## 6.0.83
 
 ### Patch Changes

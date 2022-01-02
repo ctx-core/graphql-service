@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "6.0.83",
+	"version": "6.0.84",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 	"scripts": {
 		"build": "npm run compile",
 		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f lib/**/*.d.ts",
+		"clean:tsbuildinfo": "rimraf tsconfig.tsbuildinfo && rimraf lib/**/*.d.ts",
 		"compile": "npm run compile:source && npm run compile:declaration",
 		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
 		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
@@ -36,14 +36,14 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.1.0",
-		"@ctx-core/graphql": "workspace:^9.0.49",
+		"@ctx-core/graphql": "workspace:^9.0.50",
 		"@ctx-core/object": "workspace:^22.0.8",
 		"apollo-server-express": "preview",
 		"graphql": "^16.2.0",
 		"graphql-upload": "^13.0.0"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "workspace:^20.2.20",
+		"@ctx-core/function": "workspace:^20.2.21",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.124",
 		"@types/graphql-upload": "^8.0.8",
