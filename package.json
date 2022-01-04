@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "6.0.85",
+	"version": "6.0.86",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -47,7 +47,7 @@
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.125",
 		"@types/graphql-upload": "^8.0.8",
-		"@types/node": "^17.0.6",
+		"@types/node": "^17.0.7",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
