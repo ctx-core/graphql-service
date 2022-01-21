@@ -43,7 +43,7 @@
 		"graphql-upload": "^13.0.0"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "workspace:^20.3.0",
+		"@ctx-core/function": "workspace:^20.4.0",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.133",
 		"@types/graphql-upload": "^8.0.10",
