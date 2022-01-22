@@ -9,10 +9,10 @@ import type { GraphQLSchema } from '@ctx-core/graphql'
  * @property {[]} [validationRules]
  */
 export interface express_graphql_opts {
-	schema:GraphQLSchema
-	graphiql?:boolean
-	rootValue?:unknown
-	pretty:boolean
-	formatError?:Function
-	validationRules?:[]
+	schema:GraphQLSchema;
+	graphiql?:boolean;
+	rootValue?:unknown;
+	pretty:boolean;
+	formatError?:Function;
+	validationRules?:[];
 }

@@ -5,6 +5,6 @@ import type { Resolvers, TypeDefs } from '@ctx-core/graphql'
  * @property {Resolvers|Resolvers[]} resolvers
  */
 export interface ApolloServer_params {
-	typeDefs:TypeDefs
-	resolvers:Resolvers|Resolvers[]
+	typeDefs:TypeDefs;
+	resolvers:Resolvers|Resolvers[];
 }
