@@ -34,15 +34,15 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "*",
-		"@ctx-core/graphql": "^9.0.57",
-		"@ctx-core/object": "*",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/graphql": "workspace:^9.0.57",
+		"@ctx-core/object": "workspace:*",
 		"apollo-server-express": "preview",
 		"graphql": "^16.3.0",
 		"graphql-upload": "^13.0.0"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "*",
+		"@ctx-core/function": "workspace:*",
 		"c8": "^7.11.0",
 		"check-dts": "^0.6.6",
 		"tsm": "^2.2.1",
