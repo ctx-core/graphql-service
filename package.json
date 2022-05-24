@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "6.0.107",
+	"version": "6.0.108",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -32,8 +32,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.4.0",
-		"@ctx-core/graphql": "^9.0.71",
+		"@ctx-core/array": "^26.4.2",
+		"@ctx-core/graphql": "^9.0.72",
 		"@ctx-core/object": "^22.1.10",
 		"apollo-server-express": "preview",
 		"graphql": "^16.5.0",
