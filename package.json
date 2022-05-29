@@ -37,7 +37,7 @@
 		"@ctx-core/object": "^22.2.0",
 		"apollo-server-express": "preview",
 		"graphql": "^16.5.0",
-		"graphql-upload": "^15.0.0"
+		"graphql-upload": "^15.0.1"
 	},
 	"devDependencies": {
 		"@ctx-core/function": "^20.8.0",
