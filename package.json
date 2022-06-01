@@ -32,7 +32,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.4.3",
+		"@ctx-core/array": "^26.5.1",
 		"@ctx-core/graphql": "^9.0.73",
 		"@ctx-core/object": "^22.2.1",
 		"apollo-server-express": "preview",
