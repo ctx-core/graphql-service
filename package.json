@@ -40,7 +40,7 @@
 		"graphql-upload": "^15.0.1"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "^20.8.0",
+		"@ctx-core/function": "^20.8.1",
 		"c8": "^7.11.3",
 		"check-dts": "^0.6.7",
 		"tsm": "^2.2.1",
