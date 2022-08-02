@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 6.0.119
+
+### Patch Changes
+
+- graphql-upload: ^16.0.0 -> ^16.0.1
+
 ## 6.0.118
 
 ### Patch Changes
