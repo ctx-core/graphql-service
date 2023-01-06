@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 6.0.126
+
+### Patch Changes
+
+- fix: + express dependency
+
 ## 6.0.125
 
 ### Patch Changes
