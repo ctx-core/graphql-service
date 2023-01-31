@@ -1,5 +1,15 @@
 # @ctx-core/graphql-service
 
+## 6.0.138
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/array@26.8.13
+  - @ctx-core/graphql@9.0.97
+  - @ctx-core/object@24.1.1
+
 ## 6.0.137
 
 ### Patch Changes
