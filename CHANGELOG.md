@@ -1,5 +1,17 @@
 # @ctx-core/graphql-service
 
+## 7.0.0
+
+### Major Changes
+
+- express_graphql_upload.js=>express_graphql_upload/index.js
+
+### Minor Changes
+
+- express_graphql_upload.d.ts=>express_graphql_upload/index.d.ts
+- polka_graphql_upload.d.ts=>polka_graphql_upload/index.d.ts
+- polka_graphql_upload.js=>polka_graphql_upload/index.js
+
 ## 6.0.202
 
 ### Patch Changes

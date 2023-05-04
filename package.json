@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "6.0.202",
+	"version": "7.0.0",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
