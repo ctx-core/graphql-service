@@ -1,5 +1,5 @@
 import { flatten } from '@ctx-core/array'
-import { express_graphql_upload } from './express_graphql_upload.js'
+import { express_graphql_upload } from '../express_graphql_upload/index.js'
 /** @typedef {import('express').Request}Request */
 /** @typedef {import('express').Response}Response */
 /**
@@ -9,7 +9,11 @@ import { express_graphql_upload } from './express_graphql_upload.js'
  * @returns {Promise<void>}
  * @private
  */
-export async function polka_graphql_upload(req, res, next) {
+export async function polka_graphql_upload(
+	req,
+	res,
+	next
+) {
 	const { headers } = req
 	req.is || (req.is = (content_type)=>{
 		const content_type_a = flatten([
@@ -24,4 +28,6 @@ export async function polka_graphql_upload(req, res, next) {
 	})
 	next()
 }
-export { polka_graphql_upload as graphql_upload__polka }
+export {
+	polka_graphql_upload as graphql_upload__polka
+}

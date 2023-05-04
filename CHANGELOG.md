@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 6.0.202
+
+### Patch Changes
+
+- dependencies: @apollo/server instead of apollo-server-express
+
 ## 6.0.201
 
 ### Patch Changes
