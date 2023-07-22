@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 7.0.18
+
+### Patch Changes
+
+- @apollo/server: ^4.8.0 -> ^4.8.1
+
 ## 7.0.17
 
 ### Patch Changes
