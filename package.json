@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "7.0.27",
+	"version": "7.0.28",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -33,15 +33,15 @@
 	},
 	"dependencies": {
 		"@apollo/server": "^4.9.3",
-		"@ctx-core/array": "^26.15.0",
-		"@ctx-core/graphql": "^9.0.177",
-		"@ctx-core/object": "^28.0.5",
+		"@ctx-core/array": "^26.15.1",
+		"@ctx-core/graphql": "^9.0.178",
+		"@ctx-core/object": "^28.0.6",
 		"express": "^4.18.2",
 		"graphql": "^16.8.0",
 		"graphql-upload": "^16.0.2"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "^21.19.0",
+		"@ctx-core/function": "^21.20.0",
 		"@types/express": "^4.17.17",
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
