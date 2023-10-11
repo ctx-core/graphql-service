@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 7.0.35
+
+### Patch Changes
+
+- @types/express: ^4.17.18 -> ^4.17.19
+
 ## 7.0.34
 
 ### Patch Changes
