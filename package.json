@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "7.0.42",
+	"version": "7.1.0",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,15 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./express_graphql_upload",
+		"./polka_graphql_upload"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,15 +39,14 @@
 	},
 	"dependencies": {
 		"@apollo/server": "^4.9.5",
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/graphql": "^9.0.188",
-		"@ctx-core/object": "^30.0.0",
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/graphql": "^9.1.0",
+		"@ctx-core/object": "^30.1.0",
 		"express": "^4.18.2",
 		"graphql": "^16.8.1",
 		"graphql-upload": "^16.0.2"
 	},
 	"devDependencies": {
-		"@ctx-core/function": "^21.20.2",
 		"@types/express": "^4.17.21",
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
@@ -56,6 +61,5 @@
 	"noUpdate": [
 		"apollo-server-express"
 	],
-	"svelte": "./src/index.js",
 	"sideEffects": false
 }
