@@ -1,7 +1,7 @@
 import { flatten } from '@ctx-core/array'
 import { express_graphql_upload } from '../express_graphql_upload/index.js'
-/** @typedef {import('express').Request}Request */
-/** @typedef {import('express').Response}Response */
+/** @typedef {import('express').Request} */
+/** @typedef {import('express').Response} */
 /**
  * @param {Request} req
  * @param {Response} res
