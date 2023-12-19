@@ -1,7 +1,6 @@
-import { flatten } from '@ctx-core/array'
+/// <reference types="express" />
+import { flatten } from 'ctx-core/array'
 import { express_graphql_upload } from '../express_graphql_upload/index.js'
-/** @typedef {import('express').Request} */
-/** @typedef {import('express').Response} */
 /**
  * @param {Request} req
  * @param {Response} res
@@ -19,8 +18,10 @@ export async function polka_graphql_upload(
 		const content_type_a = flatten([
 			content_type
 		])
-		return headers['content-type'] ? content_type_a.find((content_type)=>~(headers['content-type'] || '').indexOf(content_type)
-		) || false : null
+		return headers['content-type']
+			? content_type_a.find((content_type)=>~(headers['content-type'] || '').indexOf(content_type)
+			) || false
+			: null
 	})
 	await new Promise(async (resolve, reject)=>{
 		express_graphql_upload(req, res, (e)=>e ? reject(e) : resolve(undefined)
