@@ -1,5 +1,11 @@
 # @ctx-core/graphql-service
 
+## 7.1.66
+
+### Patch Changes
+
+- fix: type errors
+
 ## 7.1.65
 
 ### Patch Changes
