@@ -1,5 +1,14 @@
 # @ctx-core/graphql-service
 
+## 7.1.161
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+  - @ctx-core/graphql@9.1.157
+
 ## 7.1.160
 
 ### Patch Changes

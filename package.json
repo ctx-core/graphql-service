@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-service",
-	"version": "7.1.160",
+	"version": "7.1.161",
 	"description": "ctx-core graphql-service",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/graphql-service.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-graphql-service@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -42,8 +46,8 @@
 	},
 	"dependencies": {
 		"@apollo/server": "^4.10.1",
-		"@ctx-core/graphql": "^9.1.156",
-		"ctx-core": "^6.6.0",
+		"@ctx-core/graphql": "^9.1.157",
+		"ctx-core": "^6.6.1",
 		"express": "^4.18.3",
 		"graphql": "^16.8.1",
 		"graphql-upload": "^16.0.2"
