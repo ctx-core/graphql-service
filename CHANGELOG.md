@@ -1,5 +1,13 @@
 # @ctx-core/graphql-service
 
+## 7.1.204
+
+### Patch Changes
+
+- ctx-core: ^7.2.19 -> ^7.2.20
+- Updated dependencies
+  - @ctx-core/graphql@9.1.195
+
 ## 7.1.203
 
 ### Patch Changes
