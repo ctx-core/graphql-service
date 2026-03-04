@@ -1,5 +1,32 @@
 # @ctx-core/graphql-service
 
+## 7.1.219
+
+### Patch Changes
+
+- c8: ^10.1.3 -> ^11.0.0
+- express: ^5.1.0 -> ^5.2.1
+- check-dts: ^0.8.2 -> ^0.9.0
+- tsx: ^4.20.6 -> ^4.21.0
+- @apollo/server: ^4.12.2 -> ^5.4.0
+- graphql: ^16.12.0 -> ^16.13.0
+- graphql-upload: ^16.0.2 -> ^17.0.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.33
+  - @ctx-core/graphql@9.1.208
+
 ## 7.1.218
 
 ### Patch Changes
